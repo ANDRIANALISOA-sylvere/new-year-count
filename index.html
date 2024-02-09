@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New year count</title>
+    <style>
+        body
+        {
+            background-image: url('./7.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color:white;
+            text-align: center;
+        }
+        .counter
+        {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .newyears
+        {
+            margin: 20px;
+        }
+        span
+        {
+            font-weight: bold;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>New Years Eve</p>
+        <div class="counter">
+            <div class="newyears">
+                <span id="days">2</span> <br>
+                days
+            </div>
+            <div class="newyears">
+                <span id="hours">2</span> <br>
+                hours
+            </div>
+            <div class="newyears">
+                <span id="mins">2</span> <br>
+                mins
+            </div>
+            <div class="newyears">
+                <span id="seconds">2</span> <br>
+                seconds
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
